@@ -27,3 +27,10 @@ To create a production version:
 ```sh
 npm run build
 ```
+
+## Development
+This project has been developed with React and uses the following technologies
+
+- [React](https://react.dev/)
+- [Material-UI](https://mui.com/core/)
+- [Jest for testing](https://jestjs.io/)
