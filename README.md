@@ -6,6 +6,8 @@ This project contains a main timer functionality.
 
 The project was created with the boilerplate `create-react-app`
 
+## View App
+The timer has been deployed on github and is accessible via: [Hier](https://jzetalat.github.io/timer_react/)
 
 ## Installation
 
@@ -27,6 +29,10 @@ To create a production version:
 ```sh
 npm run build
 ```
+To deploy:
+```sh
+npm run deploy
+```
 
 ## Development
 This project has been developed with React and uses the following technologies
@@ -34,3 +40,4 @@ This project has been developed with React and uses the following technologies
 - [React](https://react.dev/)
 - [Material-UI](https://mui.com/core/)
 - [Jest for testing](https://jestjs.io/)
+- [gh-pages](https://www.npmjs.com/package/gh-pages)
