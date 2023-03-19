@@ -1,4 +1,12 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(200, 224, 241, 0.5);
 }
 
+.timer {
+  font-size: 30px;
+  cursor: pointer;
+}

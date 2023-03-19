@@ -9,8 +9,8 @@ The project was created with the boilerplate `create-react-app`
 
 ## Installation
 
-1. Clone the repository: ``
-2. Go to the project directory : `cd start_timer_react`
+1. Clone the repository: `https://github.com/jzetalat/timer_react.git`
+2. Go to the project directory : `cd timer_react`
 3. Install the dependencies: `npm install`
 
 ## Usage
