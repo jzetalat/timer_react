@@ -24,7 +24,7 @@ describe('Timer', () => {
         const startButton = screen.getByRole('button', { name: /start timer/i });
         fireEvent.click(startButton);
         act(() => {
-          jest.advanceTimersByTime(1000);
+            jest.advanceTimersByTime(1000);
         });
         const timerText = screen.getByText(/9/);
         expect(timerText).toBeInTheDocument();
@@ -64,7 +64,7 @@ describe('Timer', () => {
         const startButton = screen.getByRole('button', { name: /start timer/i });
         fireEvent.click(startButton);
         act(() => {
-          jest.advanceTimersByTime(10000);
+            jest.advanceTimersByTime(10000);
         });
         const timer = screen.getByTestId('timer');
         fireEvent.mouseEnter(timer);

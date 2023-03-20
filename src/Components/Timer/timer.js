@@ -46,7 +46,8 @@ const Timer = () => {
         <div className="timer-container">
             {seconds === null ? (
                 <Button variant="contained" 
-                        color={COLORS.BUTTON_COLOR} 
+                        color={COLORS.BUTTON_COLOR}
+                        aria-label="start timer"
                         onClick={handleStartTimer}
                         endIcon={<AlarmOnSharpIcon/>}
                 >
